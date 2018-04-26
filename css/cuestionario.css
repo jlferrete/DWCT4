@@ -1,0 +1,57 @@
+#izq, #izq1, #izq2, #izq3, #izq4, #izq5, #izq6 {
+	width: 150px;
+	text-align: left;
+	line-height: 2em;
+}
+
+#centro, #centro1, #centro2, #centro3, #centro4, #centro5, #centro6 {
+	width: 55%;
+	padding-left:150px;
+	margin-left:-125px;
+	line-height: 2em;
+
+}
+
+#centro2, #centro3, #centro4, #centro5, #centro6 {
+	margin-left:-25%;
+	width: 50%;
+}
+
+#centro5 {
+	margin-top:2%;
+
+}
+
+#derecho, #derecho2, #derecho3, #derecho4, #derecho5, #derecho6 {
+	width: 35%;
+	float: right;
+	line-height: 2em;
+	
+}
+#derecho2, #derecho3, #derecho4, #derecho5, #derecho6 {
+	margin-left:-50%;
+	text-align: left;	
+}
+
+#separador, #separador1, #separador2, #separador3, #separador4, #separador5, #politica {
+	height: 10px;
+	width: 100%;
+	clear: both;
+}
+
+#politica{
+
+height: 8%;
+}
+
+
+#relleno {
+	width:100%;
+	clear: both;
+}
+
+.req {
+	color: red;
+}
+
+

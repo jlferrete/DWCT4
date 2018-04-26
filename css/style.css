@@ -1,0 +1,76 @@
+body {
+   padding: 0px;
+   margin: 0px;
+}
+
+div{
+	float:left;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.wrapper{
+   width: 100%;
+   margin: 0 auto;
+}
+.header{
+   float: left;
+   width: 100%;
+   background-color: #f4f4f4;
+   padding-left: 1%;
+}
+.logo {
+
+float: left;
+width: 20%;
+margin-top:1%;
+margin-left:1%;
+margin-bottom:1%;
+}
+
+.nameHotel {
+	float: left;
+	width: 60%;
+	font-family:'Helvetica','Verdana','Monaco',sans-serif;
+	vertical-align: middle;
+	text-align: center;
+	text-shadow: 2px 2px #0000ff;
+}
+
+
+.wrapmiddle{
+   float: left;
+   width: 100%;
+   background-color: #fff;
+}
+.middle{
+   margin-right:246px;
+   margin-left:20%;
+   background-color: #afeeee;
+   height: 80%;
+   width:60%
+}
+.left{
+   float: left;
+   width: 230px;
+   padding-left:1%;
+   margin-left: -100%;
+   background-color: #cfcfcf;
+   
+}
+.right{
+   float: left;
+   width: 230px;
+   margin-left: -230px;
+   padding-right:1%;
+   background-color: #cfcfcf;
+   
+}
+footer{
+   float: left;
+   width: 100%;
+   padding-left: 1%;
+   margin-top:2%;
+   background-color: #c1c1c1;
+}
+

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/cuestionario.css">
+	<title>miEscapadita.com</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="header">
+				<div class="logo"><img src="./images/plane.gif" height="15%" width="15%"/></div>
+				<div class="nameHotel"><h1>miEscapadita.com</h1></div>
+			</div> 
+			<div class="wrapmiddle"> 	  
+				<div class="middle">
+					<div class="logo"><img src="./images/wp.gif" height="45%" width="45%"/></div>
+					<div class="nameHotel"><h2>Hotel Whitney Peak</h2></div>
+					<fieldset>
+						<form action="#" method="post" onsubmit="validar()">
+							<section id="section1">
+								<div id="izq1">
+									<p><label class="req" label id="user1" name="user1" for="user">Nombre Usuario: </label><br/>
+									<label class="req" label id="pass" name="pass" for="password">Contraseña: </label><br/>
+									<label class="req" label id="pass2" name="pass2" for="password2">Repetir Contraseña: </label><br/>
+									<label label id="direction" name="direction" for="direction1">Dirección: </label><br/>
+									<label label id="city" name="city" for="city1">Ciudad: </label><br/>
+									<label label id="province" name="province" for="province1">Provincia: </label><br/>
+									<label label id="guests" name="guests" for="guests1">Numero de Huespedes: </label><br/>
+																
+								</div>
+								<div id="centro1">
+									<p><input type="text" maxlength="20" size="20" name="user" id="user"><br/>
+									<input type="password" name="password" id="password" maxlength="20" size="20" ><br/>
+									<input type="password" name="password2" id="password2" maxlength="20" size="20"><br/>
+									<input type="text" maxlength="100" size="20" name="direction1" id="direction1"><br/>
+									<input type="text" maxlength="60" size="20" name="city1" id="city1"><br/>
+									<input type="text" maxlength="60" size="20" name="province1" id="province1"><br/>
+									<input type="text" maxlength="2" size="20" name="guests1" id="guests1"><br/>
+									</p>
+								</div>
+								
+								<div id="derecho">
+									<p></p>
+								</div>
+							</section>
+							<section id="section2">
+								<div id="separador">
+								<p>Servicios <br/><p>
+								</div>	
+								<div id="izq2">
+									<p>
+									</p>
+									
+								</div>
+								<div id="centro2">
+									<p>
+									<input type="checkbox" id="AC" value="AC">Aire Acondicionado<br/>
+									<input type="checkbox" id="safe" value="safe">Caja fuerte<br/>
+									<input type="checkbox" id="minibar" value="minibar">Minibar<br/>
+									<input type="checkbox" id="internet" value="internet">Conexión a internet<br/>								
+									</p>
+															
+									</p>
+								</div>
+								<div id="derecho2">
+									<p>
+									<input type="checkbox" id="pillows" value="pillows">Almohadas a la carta<br/>
+									<input type="checkbox" id="smoke" value="smoke">Detector de humos<br/>
+									<input type="checkbox" id="workbench" value="workbench">Mesa de trabajo<br/>
+									<input type="checkbox" id="wifi" value="wifi">WIFI<br/>
+									</p>
+								</div>
+							</section>	
+							<section id="section3">	
+								<div id="separador1">
+								<p>Tipo de habitación<br/><p>
+								</div>	
+								<div id="izq3">
+									<p>
+									</p>
+									
+								</div>
+								<div id="centro3">
+									<p>
+									<input type="checkbox" id="single" name="roomS" value="single">Individual<br/>
+									<input type="checkbox" id="doble" name="roomD" value="doble">Doble<br/>
+									<input type="checkbox" id="suite" name="roomSU" value="suite">Suite<br/>							
+									</p>
+									
+								</div>
+								<div id="derecho3">
+									<p>
+									</p>
+								</div>
+							</section>
+							<section id="section4">
+								<div id="separador2">
+								<p>Pensión<br/><p>
+								</div>	
+								<div id="izq4">
+									<p>
+									</p>
+									
+								</div>
+								<div id="centro4">
+									<p>
+									<input type="checkbox" name="pensionA" id="A" value="A">Alojamiento<br/>
+									<input type="checkbox" name="pensionD" id="D" value="D">Desayuno<br/>
+									<input type="checkbox" name="pensionMP" id="MP" value="MP">Media<br/>
+									<input type="checkbox" name="pensionPC" id="PC" value="PC">Completa<br/>
+									</p>
+									
+								</div>
+								<div id="derecho4">
+									<p>
+									</p>
+								</div>
+							</section>
+							<section id="section5">
+								<div id="separador3">
+								<p>Comentarios o sugerencias<br/><p>
+								</div>	
+								<div id="izq5">
+									<p>
+									</p>
+								</div>
+								<div id="centro5">
+									<p>
+									<textarea rows="3" cols="75" wrap="soft"></textarea>							
+									</p>
+								</div>
+								<div id="derecho5">
+									<p>
+									</p>
+								</div>
+							</section>
+							<section id="section6">
+								<div id="separador4">
+								<p><p>
+								</div>	
+								<div id="izq6">
+									<p>
+									<label class="req" label id="email1" name="email1" for="email">E-mail contacto</label><br/>
+									</p>
+								</div>
+								<div id="centro6">
+									<p>
+									<input type="text" name="email" id="email" placeholder="Introduce tu email" maxlength="40" size="40"><br/>										
+									</p>
+									
+								</div>
+								<div id="derecho6">
+									<p>
+									</p>
+								</div>
+								<div id="politica">
+								<input class="req" type="checkbox" name="politicy" id="politicy">Acepto la política de privacidad<br/>
+								</div>
+							</section>
+							<div id="separador5">
+								<p><input type="submit" value="Enviar"/> <input type="reset" value="Limpiar"/></p>
+							</div>
+						</form>
+					</fieldset>
+				</div>
+			</div>
+			<div class="left">
+				<div id="navIzq">
+						<ul>
+							<li><a href="../../index.html">Página principal</a></li>
+							<li><a href="../maritim/welcome.html">Hotel Maritim</a></li>
+							<li><a href="welcome.html">Hotel Whitney Peak</a></li>
+						</ul>
+					</div>
+				</div>	    
+			<div class="right">
+				<ul>
+					<li><a href="#">Datos del Hotel</a></li>
+					<li><a href="./cuestionario.html">Registro en Hotel</a></li>
+				</ul>
+			</div>	
+		</div>
+
+
+	<script type="text/javascript">
+		function validar(){
+			// Generamos 7 banderas para determinar si los elementos son validos
+			var validador1=false;
+			var validador2=false;
+			var validador3=false;
+			var validador4=false;
+			var validador5=false;
+			var validador6=false;
+			var validador7=false;
+			
+			// Creamos variables para los datos personales
+			var user=document.getElementById("user").value;
+			var password=document.getElementById("password").value;
+			var password2=document.getElementById("password2").value;
+			var guests=document.getElementById("guests1").value;
+			var email=document.getElementById("email").value;
+			//Creamos variables para los servicios
+			var AC = document.getElementById('AC').checked;
+			var safe = document.getElementById('safe').checked;
+			var minibar = document.getElementById('minibar').checked;
+			var internet = document.getElementById('internet').checked;
+			var pillows = document.getElementById('pillows').checked;
+			var smoke = document.getElementById('smoke').checked;
+			var workbench = document.getElementById('workbench').checked;
+			var wifi = document.getElementById('wifi').checked;
+			//Creamos variables para los tipos de alojamento
+			var single = document.getElementById('single').checked;
+			var doble = document.getElementById('doble').checked;
+			var suite = document.getElementById('suite').checked;
+			//Creamos variables para los tipos de pension
+			var A = document.getElementById('A').checked;
+			var D = document.getElementById('D').checked;
+			var MP = document.getElementById('MP').checked;
+			var PC = document.getElementById('PC').checked;
+			//Creamos variable para la politica de uso
+			var politicy = document.getElementById('politicy').checked;
+			//Comenzamos con la validacion del usuario
+			if(user.length==0){
+				alert("El campo 'Nombre usuario' es un campo obligatorio");
+			}
+			else if (!(/^\w{8,}$/.test(user))){
+					alert("El nombre de usuario debe contener al menos 8 caracteres alfanumericos");
+			}else{
+			//Si todo es correcto, cambiamos la bandera a true	
+			 validador1=true;
+			}
+			
+			 if(password.length==0){
+				alert("El campo 'Contraseña' es un campo obligatorio");
+			}
+			
+			else if(!(/^\_{1}\d{1}[a-zA-Z0-9]+\d{1}$/.test(password))){
+				alert("La contraseña no coincide con el patrón esperado");
+			}
+			else if(password.length<8){
+				alert("La contraseña no cumple los caracteres minimos");
+				}
+			else if(password.length>12){			
+				alert("La contraseña no cumple los caracteres maximos");
+			}
+			else if(password!==password2){
+				alert("Las contraseñas introducidas no coinciden");
+			}else{
+			validador2=true;
+			}
+			
+			if(email.length==0){
+				alert("El campo 'E-mail Contacto' es un campo obligatorio");
+			}
+			else if(!(/^[a-zA-Z0-9]+(\.{1}[a-zA-Z0-9]+)?\@{1}[a-zA-Z0-9]+\.{1}[a-zA-Z0-9]+$/.test(email))){
+				alert("El correo no coincide con el patrón esperado");
+			}else{
+				validador3=true;
+			}
+		
+		if (AC!==true && safe!==true && minibar!==true && internet!==true && pillows!==true && smoke!==true && workbench!==true && wifi!==true){
+			alert("Debe elegir alguno de los servicios. No ha seleccionado ninguno.");
+		}else{
+		validador4= true;
+		}
+		
+		if(single!==true && doble!==true && suite!==true){
+			alert("Debe elegir algún tipo de habitación. No ha seleccionado ninguno.");
+		}else{
+		validador5=true;
+		}
+		
+		if(A!==true && D!==true && MP!==true && PC!==true){
+			alert("Debe elegir algún tipo de régimen de pensión. No ha seleccionado ninguno.");
+		}else if(A!==true){
+			alert("Solo es posible el régimen de pensión de Alojamiento");
+		}else{
+		validador6=true;
+		}
+				
+		if(politicy!==true){
+			alert("No ha aceptado las politicas de privacidad")
+		}else {
+			validador7=true;
+		}
+		
+		if(validador1==true && validador2==true && validador3==true && validador4==true && validador5==true && validador6==true && validador7==true){
+		 alert("Su reserva se ha tramitado correctamente");
+		}
+		else{
+		alert("Se produjo un error en la tramitación");}
+		}
+	</script>
+	</body>
+	<footer>
+	<p>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">
+		<img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="¡CSS Válido!" />
+		</a>
+	</p>
+	</footer>
+</html>
